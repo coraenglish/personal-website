@@ -105,7 +105,7 @@ hr {
 }
 
 #spacer-top {
-  height: 25vh;
+  height: 30vh;
 }
 
 .main {
@@ -303,10 +303,13 @@ div.sticky-nav {
 }
 
 @media screen and (max-width: 768px) {
+  #spacer-top {
+    height: 10vh;
+  }
   .jumbotron {
     background: no-repeat center fixed url('../images/background-img3.png');
     background-size: 50%;
-    background-size: cover;
+    background-size: auto;
     margin-bottom: 0px;
     padding: 0px;
     border-radius: 0;
