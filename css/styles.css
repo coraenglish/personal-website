@@ -197,6 +197,14 @@ hr {
   margin-bottom: 35px;
 }
 
+.btn-resume {
+  color: var(--theme-text-accent);
+}
+
+.btn-resume:hover {
+  color: var(--theme-text-accent);
+}
+
 .link {
   margin-bottom: 15px;
   color: var(--theme-text-accent);
@@ -250,8 +258,7 @@ div.sticky-nav {
 .dropdown-menu {
   border: none;
   background-color: var(--theme-bg-accent);
-  padding-bottom: 0;
-  padding-top: 0;
+  padding-left: 15px;
 }
 
 .row-exp {
