@@ -1,20 +1,10 @@
 :root {
-  --theme-dark: #0e3150;
   --theme-text: #5F8A96;
   --theme-text-dark: #142d4c/*324950*/;
   --theme-text-accent: #85c7b7/*6dc9c8*/;
   --theme-bg-accent: #385170/*ffc0c2*/;
   --theme-bg-1: white/*#f9f6f5*/;
   --theme-bg-2: #ececec/*f0dfdb*/;
-  --primary: #ffc0c2;
-  --blue: #ffc0c2;
-  --secondary: #6c757d;
-  --success: #28a745;
-  --info: #17a2b8;
-  --warning: #ffc107;
-  --danger: #dc3545;
-  --light: #f8f9fa;
-  --dark: #343a40;
 }
 
 
@@ -27,7 +17,7 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background: var(--theme-text);
+  background: var(--theme-bg-accent);
 }
 
 ::-webkit-scrollbar-thumb:hover {
@@ -197,12 +187,41 @@ hr {
   margin-bottom: 35px;
 }
 
+.img-modal-end {
+  width: 100%;
+}
+
+.modal-body {
+  padding: 10px;
+
+}
+
+.modal-footer {
+  border: none;
+  padding: 10px;
+}
+
+.btn-modal-close {
+  background-color: var(--theme-bg-accent);
+}
+
+.btn-modal-close:hover {
+  background-color: var(--theme-text-dark);
+}
+
 .btn-resume {
   color: var(--theme-text-accent);
+  border-color: var(--theme-text-accent);
 }
 
 .btn-resume:hover {
-  color: var(--theme-text-accent);
+  background-color: var(--theme-text-accent);
+  color: var(--theme-bg-1);
+}
+
+.btn-resume:active {
+  background-color: var(--theme-bg-2) !important;
+  color: var(--theme-bg-accent) !important;
 }
 
 .link {
