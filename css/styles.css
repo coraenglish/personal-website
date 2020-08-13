@@ -305,6 +305,8 @@ div.sticky-nav {
 @media screen and (max-width: 768px) {
   .jumbotron {
     background: no-repeat center fixed url('../images/background-img3.png');
+    background-size: 50%;
+    background-size: cover;
     margin-bottom: 0px;
     padding: 0px;
     border-radius: 0;
@@ -317,15 +319,15 @@ div.sticky-nav {
     position: absolute;
     bottom: 0px;
     right: 0%;
-    background-color: var(--theme-bg-accent);
+    background-color: transparent;
     text-align: center;
     z-index: 6;
   }
 
   .fa-angle-down {
     color: var(--theme-bg-1);
-    font-size: 2rem;
-    margin-top: 4px;
+    font-size: 2.5rem;
+    margin-top: 0px;
   }
 
   .container {
