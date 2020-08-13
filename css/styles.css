@@ -87,8 +87,6 @@ hr {
 }
 
 .img-exp:hover {
-  /* -webkit-filter: blur(2px); */
-  /* opacity: 0.5; */
   border: 5px solid var(--theme-bg-accent);
 }
 
@@ -174,6 +172,8 @@ hr {
 
 .p-contact {
   margin-bottom: 40px;
+  font-size: 1.2rem;
+  padding: 0px 70px;
 }
 
 .img-exp {
@@ -263,7 +263,7 @@ div.sticky-nav {
 
 .nav-link:hover, .dropdown-item:hover {
   background-color: transparent;
-  text-decoration: bold !important;
+  font-weight: 500;
 }
 
 .dropdown-item:active {
@@ -285,6 +285,13 @@ div.sticky-nav {
 }
 
 @media screen and (max-width: 768px) {
+  .jumbotron {
+    background: no-repeat center fixed url('../images/background-img3.png');
+    margin-bottom: 0px;
+    padding: 0px;
+    border-radius: 0;
+  }
+
   .container {
     padding: 60px 30px;
   }
@@ -328,6 +335,11 @@ div.sticky-nav {
   list-style-type: none;
   color: var(--theme-text-accent);
   padding: 0px;
+}
+
+.contact-email {
+  color: var(--theme-text-accent);
+  font-weight: 500;
 }
 
 ul li {
